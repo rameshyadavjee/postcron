@@ -1,0 +1,86 @@
+[17-Jan-2014 08:21:30 Europe/Berlin] PHP Fatal error:  Call to undefined function Get() in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:23:55 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 20
+[17-Jan-2014 08:24:29 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:28:26 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/59722396/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:29:11 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/59722396/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:30:12 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/sites/62383546/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:30:40 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/sites/62383546/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:30:44 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/sites/62383546/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:32:29 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:33:09 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:33:39 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/59722396/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:35:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected '', false, $context);' (T_ENCAPSED_AND_WHITESPACE) in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:35:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected '', false, $context);' (T_ENCAPSED_AND_WHITESPACE) in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:35:27 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/likes/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:35:29 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/likes/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:35:46 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v2/me/likes/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:35:48 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v2/me/likes/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:39:44 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/likes/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 08:39:44 Europe/Berlin] PHP Warning:  curl_setopt() expects parameter 1 to be resource, null given in /home/demofree/public_html/app/wordpress/post.php on line 18
+[17-Jan-2014 08:56:43 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/demofree/public_html/app/wordpress/post.php on line 5
+[17-Jan-2014 10:23:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/demofree/public_html/app/wordpress/connected.php on line 18
+[17-Jan-2014 10:23:08 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/demofree/public_html/app/wordpress/connected.php on line 18
+[17-Jan-2014 10:24:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/demofree/public_html/app/wordpress/connected.php on line 18
+[17-Jan-2014 10:55:37 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/sites/http://public-api.wordpress.com/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/demofree/public_html/app/wordpress/post.php on line 11
+[17-Jan-2014 10:56:09 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/sites/9m3khLjWzM/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/demofree/public_html/app/wordpress/post.php on line 11
+[17-Jan-2014 10:56:44 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/sites/9m3khLjWzM): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/demofree/public_html/app/wordpress/post.php on line 11
+[17-Jan-2014 10:57:03 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/9m3khLjWzM): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/demofree/public_html/app/wordpress/post.php on line 11
+[17-Jan-2014 10:57:08 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/rHSfkWr8CF): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/demofree/public_html/app/wordpress/post.php on line 11
+[17-Jan-2014 10:57:44 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 11
+[17-Jan-2014 10:58:28 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 11
+[17-Jan-2014 10:59:25 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 15
+[17-Jan-2014 11:01:59 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/help&quot;,?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/demofree/public_html/app/wordpress/post.php on line 26
+[17-Jan-2014 11:02:31 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/help?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home/demofree/public_html/app/wordpress/post.php on line 26
+[17-Jan-2014 11:02:35 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/help?pretty=1): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home/demofree/public_html/app/wordpress/post.php on line 26
+[17-Jan-2014 11:03:03 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/help): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home/demofree/public_html/app/wordpress/post.php on line 26
+[17-Jan-2014 11:03:51 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 26
+[17-Jan-2014 11:04:22 Europe/Berlin] PHP Warning:  file_get_contents(http://public-api.wordpress.com/rest/v1/me/): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 26
+[17-Jan-2014 11:49:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/demofree/public_html/app/wordpress/post.php on line 11
+[17-Jan-2014 11:49:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in /home/demofree/public_html/app/wordpress/post.php on line 11
+[17-Jan-2014 11:51:41 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 18
+[17-Jan-2014 11:52:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/demofree/public_html/app/wordpress/post.php on line 10
+[17-Jan-2014 11:52:32 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 11:52:32 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 11:53:51 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 11:54:34 Europe/Berlin] PHP Warning:  file_get_contents(https://public-api.wordpress.com/rest/v1/me/): failed to open stream: HTTP request failed! HTTP/1.1 403 Forbidden
+ in /home/demofree/public_html/app/wordpress/post.php on line 17
+[17-Jan-2014 11:54:36 Europe/Berlin] PHP Warning:  fgets() expects at most 2 parameters, 3 given in /home/demofree/public_html/app/wordpress/post.php on line 21
+[17-Jan-2014 11:54:53 Europe/Berlin] PHP Warning:  fgets() expects at most 2 parameters, 3 given in /home/demofree/public_html/app/wordpress/post.php on line 21
+[17-Jan-2014 11:54:56 Europe/Berlin] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/demofree/public_html/app/wordpress/post.php on line 21
+[17-Jan-2014 11:55:15 Europe/Berlin] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/demofree/public_html/app/wordpress/post.php on line 21
+[17-Jan-2014 11:55:18 Europe/Berlin] PHP Warning:  fgets() expects parameter 1 to be resource, string given in /home/demofree/public_html/app/wordpress/post.php on line 21
+[17-Jan-2014 11:56:20 Europe/Berlin] PHP Warning:  file_get_contents() expects parameter 2 to be boolean, resource given in /home/demofree/public_html/app/wordpress/post.php on line 21
+[17-Jan-2014 11:56:37 Europe/Berlin] PHP Warning:  file_get_contents() expects parameter 2 to be boolean, resource given in /home/demofree/public_html/app/wordpress/post.php on line 21

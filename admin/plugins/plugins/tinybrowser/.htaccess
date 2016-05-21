@@ -1,0 +1,25 @@
+# Apache 1.x and ModSecurity 1.x
+<IfModule mod_security.c>
+   <Files upload.php>
+      SecFilterEngine Off
+      SecFilterScanPOST Off
+   </Files>
+</IfModule>
+
+# Apache 2.x and ModSecurity 1.x
+<IfModule security_module>
+   <Files upload.php>
+      SecFilterEngine Off
+      SecFilterScanPOST Off
+   </Files>
+</IfModule>
+
+# Apache 2.x and ModSecurity 2.x
+<IfModule security2_module>
+   <Files upload.php>
+   	  SecFilterEngine Off
+      SecFilterScanPOST Off 
+      SecRuleEngine Off
+      SecRequestBodyAccess Off
+   </Files>
+</IfModule>

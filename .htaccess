@@ -1,0 +1,26 @@
+
+RewriteOptions inherit
+<IfModule mod_rewrite.c>
+
+ Options +FollowSymLinks
+ RewriteEngine on
+ 
+ RewriteRule ^(.*)\.html$ $1.php [nc]
+ 
+ RewriteCond %{REQUEST_FILENAME}.php -f
+ RewriteCond %{REQUEST_URI} !/$
+ RewriteRule (.*) $1\.php [L]
+
+ RewriteCond %{REQUEST_FILENAME}.html -f
+ RewriteCond %{REQUEST_URI} !/$
+ RewriteRule (.*) $1\.html [L]
+
+ RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteCond %{REQUEST_FILENAME} !-l
+
+ RewriteRule .*/ about.html [L]
+
+</IfModule>
+

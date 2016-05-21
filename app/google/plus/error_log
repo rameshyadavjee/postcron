@@ -1,0 +1,11 @@
+[31-Dec-2013 12:01:01 Europe/Berlin] PHP Fatal error:  Call to a member function set() on a non-object in /home/demofree/public_html/app/google/plus/index.php on line 135
+[31-Dec-2013 12:01:18 Europe/Berlin] PHP Fatal error:  Call to a member function set() on a non-object in /home/demofree/public_html/app/google/plus/index.php on line 135
+[31-Dec-2013 12:02:30 Europe/Berlin] PHP Fatal error:  Call to a member function set() on a non-object in /home/demofree/public_html/app/google/plus/index.php on line 135
+[31-Dec-2013 12:02:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in /home/demofree/public_html/app/google/plus/index.php on line 70
+[31-Dec-2013 12:23:03 Europe/Berlin] PHP Warning:  Illegal string offset 'access_token' in /home/demofree/public_html/app/google/plus/index.php on line 70
+[01-Jan-2014 12:03:17 Europe/Berlin] PHP Fatal error:  Call to a member function set() on a non-object in /home/demofree/public_html/app/google/plus/offline.php on line 6
+[01-Jan-2014 12:03:22 Europe/Berlin] PHP Fatal error:  Call to a member function set() on a non-object in /home/demofree/public_html/app/google/plus/offline.php on line 6
+[01-Jan-2014 12:04:13 Europe/Berlin] PHP Fatal error:  Call to a member function set() on a non-object in /home/demofree/public_html/app/google/plus/offline.php on line 22
+[01-Jan-2014 12:06:15 Europe/Berlin] PHP Fatal error:  Cannot use object of type Google_PlusService as array in /home/demofree/public_html/app/google/plus/offline.php on line 22
+[01-Jan-2014 12:06:48 Europe/Berlin] PHP Fatal error:  Call to undefined method Google_PlusService::set() in /home/demofree/public_html/app/google/plus/offline.php on line 22
+[01-Jan-2014 13:30:22 Europe/Berlin] PHP Fatal error:  Call to a member function get() on a non-object in /home/demofree/public_html/app/google/plus/offline.php on line 105

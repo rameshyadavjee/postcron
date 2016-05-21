@@ -1,0 +1,11 @@
+[09-Jan-2014 10:54:37 Europe/Berlin] PHP Warning:  rawurlencode() expects parameter 1 to be string, array given in /home/demofree/public_html/app/google/src/io/Google_REST.php on line 109
+[09-Jan-2014 10:54:39 Europe/Berlin] PHP Fatal error:  Uncaught exception 'Google_ServiceException' with message 'Error calling GET https://www.googleapis.com/blogger/v3/blogs/byurl?url=&key=544254302461-4g15477skgnanmrlbap6u4blqg059k74%40developer.gserviceaccount.com: (404) Not Found' in /home/demofree/public_html/app/google/src/io/Google_REST.php:66
+Stack trace:
+#0 /home/demofree/public_html/app/google/src/io/Google_REST.php(36): Google_REST::decodeHttpResponse(Object(Google_HttpRequest))
+#1 /home/demofree/public_html/app/google/src/service/Google_ServiceResource.php(186): Google_REST::execute(Object(Google_HttpRequest))
+#2 /home/demofree/public_html/app/google/src/contrib/Google_BloggerService.php(88): Google_ServiceResource->__call('getByUrl', Array)
+#3 /home/demofree/public_html/app/google/src/index.php(43): Google_BlogsServiceResource->getByUrl(Array)
+#4 {main}
+  thrown in /home/demofree/public_html/app/google/src/io/Google_REST.php on line 66
+[09-Jan-2014 11:06:25 Europe/Berlin] PHP Warning:  rawurlencode() expects parameter 1 to be string, array given in /home/demofree/public_html/app/google/src/io/Google_REST.php on line 109
+[09-Jan-2014 11:14:01 Europe/Berlin] PHP Warning:  rawurlencode() expects parameter 1 to be string, array given in /home/demofree/public_html/app/google/src/io/Google_REST.php on line 109
